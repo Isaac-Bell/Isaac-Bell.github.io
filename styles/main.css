@@ -4,6 +4,8 @@
   src: url(Dominique.otf);
 }
 
+
+
 @font-face {
   font-family: 'sunshine';
   src: url("DK Lemon Sun.otf");
@@ -165,6 +167,8 @@ p {
   text-align: center;
   border: 100px;
   padding-bottom: 20px;
+  margin-left: 200px;
+  margin-right: 200px; 
 }
 
 .bodytext {
