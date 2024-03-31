@@ -1,5 +1,22 @@
+
+.container {
+  display: flex;
+  overflow-x: auto; 
+}
+
+.container img { 
+  size: 15px , 15px 
+}
+
 body { 
-  background: #399;
+  display: flex; 
+  align-items: center;
+  margin: 0%;
+ 
+} 
+
+.intro { 
+  
 }
 
 h1 { 
