@@ -1,11 +1,24 @@
 
+.parallax__group { 
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
+.parralax-container { 
+  background-size:cover;
+}
 .container {
   display: flex;
+  width: 150px;
+  height: 150px; 
+  position: relative; 
+  margin: 30px ; 
   overflow-x: auto; 
 }
 
 .container img { 
-  size: 15px , 15px 
+  size: 1500px , 1500px 
 }
 
 body { 
@@ -15,9 +28,7 @@ body {
  
 } 
 
-.intro { 
-  
-}
+
 
 h1 { 
   color: #333
