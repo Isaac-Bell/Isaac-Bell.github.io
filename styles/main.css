@@ -13,8 +13,8 @@
   width: 1500px;
   height: 1500px; 
   position: relative; 
-  margin: 30px ; 
-  overflow-x: auto; 
+  overflow-x: hidden;
+  scroll-behavior: smooth; 
 }
 
 .box { 
@@ -29,11 +29,13 @@
 .overlay { 
   z-index: 9; 
   margin: 333px; 
+  overflow-x: hidden;
 
 }
 
 .container img { 
   size: 1500px , 1500px 
+  
 }
 
 body { 
@@ -41,12 +43,23 @@ body {
   align-items: center;
   margin: 0%;
  
+ 
 } 
 
-p {
+
+
+.intro {
   text-align: center;
+  color: red;
+  margin: 50%;
+  min-width: 100px;
 }
 
 h1 { 
   color: #333
+
+}
+
+.navbar { 
+  padding: 500px; 
 }
